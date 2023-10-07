@@ -2,7 +2,9 @@
     font-family: "Gilroy";
     font-style: normal;
     font-weight: 500;
-    src: local("/fonts/Gilroy-Regular.ttf") format(ttf);
+    src:
+        local("Gilroy"),
+        url("fonts/Gilroy-Regular.ttf") format("ttf");
 }
 
 * {
@@ -21,6 +23,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
     padding: 25px;
+
 }
 
 p {
@@ -28,24 +31,23 @@ p {
     font-family: "Gilroy", sans-serif;
 }
 
-.logo {
-    
-}
+/*.logo {*/
+/*    */
+/*}*/
 
-.header-button{
+.header-button {
     display: inline-flex;
     padding: 10px 15px 8px 15px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
+    background-color: #00868A;
+    color: white;
 }
 
 .flex-item-menu {
-    border-left: 1px;
-    border-color: black;
-    margin: 15px;
+    border-right: 1px solid #000;
+    padding: 20px;
+    text-align: center;
 }
 
-.header-button {
-    background: var(--accent-1, #00868A);
-}
