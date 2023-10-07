@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<head>
-    <title>This my site again</title>
-    <link rel="stylesheet" href="../style.css">
-</head>
 <header>
     <div class="flex-item-menu"><a href="/" class="logo"><img src="/images/logo.png"></a></div>
     <div class="flex-item-menu"><p><a href="tel:+7(123)4567890">+7(123)4567890</a></p></div>
@@ -23,5 +18,3 @@
             <a href="/"><img src="/images/instagram.png" alt="instagram"></a>
     </div>
 </header>
-<body></body>
-</html>
